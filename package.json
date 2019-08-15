@@ -1,0 +1,39 @@
+{
+    "name": "deskas",
+    "version": "0.0.1",
+    "main": "main.js",
+    "scripts": {
+        "start": "electron main.js --disable-gpu"
+    },
+    "dependencies": {
+        "async": "^1.5.2",
+        "electron": "^5.0.8",
+        "google-auth-library": "0.12.0",
+        "google-proto-files": "^0.15.0",
+        "google-protobuf": "^3.3.0",
+        "grpc": "^1.22.2",
+        "homedir": "^0.6.0",
+        "jquery": "^3.4.1",
+        "menubar": "^6.0.6",
+        "promise.prototype.finally": "3.1.0",
+        "resolve": "1.5.0",
+        "stdio": "^0.2.7"
+    },
+    "devDependencies": {
+        "chai": "^3.5.0",
+        "chai-spies": "^0.7.1",
+        "eslint": "^3.19.0",
+        "eslint-config-semistandard": "^11.0.0",
+        "eslint-config-standard": "^10.2.1",
+        "eslint-plugin-chai-expect": "^1.1.1",
+        "eslint-plugin-chai-friendly": "^0.3.6",
+        "eslint-plugin-import": "^2.3.0",
+        "eslint-plugin-node": "^5.0.0",
+        "eslint-plugin-promise": "^3.5.0",
+        "eslint-plugin-standard": "^3.0.1",
+        "jsdoc": "^3.5.5",
+        "jsdoc-baseline": "https://github.com/hegemonic/baseline/tarball/master",
+        "nyc": "^11.0.3",
+        "winston": "2.2.0"
+    }
+}
